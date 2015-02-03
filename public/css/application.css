@@ -1,0 +1,40 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+th {
+  text-align: left;
+}
+
+.racer_table td {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+}
+
+.player1 td.active  {
+  background-color: blue;
+}
+
+.player2 td.active  {
+  background-color: red;
+}
+
+img {
+  width:50px;
+  height:50px;
+}
+
+img.game{
+width:1000px;
+height:500px;
+
+}
+
+div.finish {
+
+   border: 5px dotted red;
+}

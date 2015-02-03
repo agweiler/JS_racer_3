@@ -1,0 +1,55 @@
+
+<div>
+
+<center><p><img src="images/super-smash-mario-vs-megaman.jpg" alt="Game" class="game"></p></center>
+
+<table class="racer_table" id= "race">
+<% length = 34 %>
+  <tr id="player1_strip" class="player1">
+    <td class="active"> <img src="images/01-03.jpeg" alt="Mega Man"> </td>
+    <% length.times do %>
+      <td><img src="images/road.jpg" alt="Road" ></td>
+    <% end %>
+     <td><img src="images/finishline.jpg" alt="Finish" ></td>
+
+  </tr>
+  <tr>
+  </tr>
+   <tr id="empty">
+      <% length.times do %>
+      <td></td>
+    <% end %>
+
+
+  </tr>
+  <tr id="fence">
+      <% length.times do %>
+      <td></td>
+    <% end %>
+
+
+  </tr>
+  <tr id="player2_strip" class="player2">
+    <td class="active"><img src="images/Super_Mario_16bit_by_schubacka.png" alt="Mario" ></td>
+    <% length.times do %>
+         <td><img src="images/road.jpg" alt="Road" ></td>
+    <% end %>
+     <td><img src="images/finishline.jpg" alt="Finish" ></td>
+
+  </tr>
+</table>
+
+<div id="finish" ></div>
+<iframe width="420" height="345"
+src="http://www.youtube.com/v/25P9sOjeWvA?autoplay=1" style="visibility:hidden">
+</iframe>
+<!--
+<form id="result" style="visibility:hidden" action="/result" method="post">
+      <input name="playerWon" type="text">
+      <input name="time_win" type="text"> -->
+ <!--      <input name="time" type="text">
+  </form> -->
+
+
+
+</div>
